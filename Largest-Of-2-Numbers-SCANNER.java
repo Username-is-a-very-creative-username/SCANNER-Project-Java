@@ -3,7 +3,7 @@ import java.util.Scanner; //Adds the scanner to the program
 class Main {
   public static void main(String[] args) {
     Scanner reader = new Scanner(System.in); //Makes a scanner class
-    System.out.println("Enter Your Numbers"); //Tells the Programmer to enter they're "numbers"
+    System.out.println("Enter Your Numbers"); //Tells the Programmer know to enter they're "numbers"
     
     int num1 = reader.nextInt(); //Lets the Programmer input they're first number 
     int num2 = reader.nextInt(); //Lets the programmer input they're second number
