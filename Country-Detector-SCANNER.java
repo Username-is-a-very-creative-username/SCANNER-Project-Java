@@ -9,11 +9,11 @@ class Main {
     
     switch (Country) {
       case "Canada":
-    message = "Hello!, Did you know canada was offically established in July 1st, 1867"; //If the inputs types "Canada" as they're country gives a mini trivia fact
+    message = "Hello!, Did you know canada was offically established in July 1st, 1867"; //If the user inputs "Canada" as they're country gives a mini trivia fact
     break;
     
     case "Germany":
-      message = "Hallo!, Did you know that germany was the country that causes WW1 and WW2"; //If the user types "Germany" as they're country gives a mini trivia fact
+      message = "Hallo!, Did you know that germany was the country that causes WW1 and WW2"; //If the user inputs "Germany" as they're country gives a mini trivia fact
     break;
 
     case "China":
