@@ -36,7 +36,7 @@ class Main {
         break;
 
       default:
-      System.out.println("Hey, we apologize we do not have this language available"); //If Language inputted isn't any of the available syntaxes apologize to the programmer 
+      System.out.println("Hey, we apologize we do not have this language available"); //If Language input isn't any of the available syntaxes apologize to the programmer 
     break;
     }
         reader.close(); //Stops the Scanner from reading anymore
