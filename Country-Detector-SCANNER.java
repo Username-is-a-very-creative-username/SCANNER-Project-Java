@@ -3,8 +3,8 @@ import java.util.Scanner; //Adds the scanner into the code
 class Main {
   public static void main(String[] args) {
     Scanner reader = new Scanner(System.in); //makes a scanner class
-    System.out.println("Enter Your Country: "); //Lets the programmer know to enter their country
-    String Country = reader.nextLine(); //Makes the programmer input to be viewed as a "Country" 
+    System.out.println("Enter Your Country: "); //Lets the user know to enter their country
+    String Country = reader.nextLine(); //Makes the user input to be viewed as a "Country" 
     String message = " "; //Stylistic Choice (Optional) to make an extra space between texts to make the program look more pretty looking 
     
     switch (Country) {
@@ -25,11 +25,11 @@ class Main {
     break;
 
       case "Spain":
-      message = "Hola!, Did you know spain is known for having the most Romantic launage in the world"; //If the user inputs "Spain" as they're country gives a mini trivia fact
+      message = "Hola!, Did you know spain is known for having the most Romantic language in the world"; //If the user inputs "Spain" as they're country gives a mini trivia fact
     break;
     
       default:
-      message = "Hi, Sorry I do not recognize this country"; //Alternative to if the Country isn't recognized in the syntax, apologize to the programmer
+      message = "Hi, Sorry I do not recognize this country"; //Alternative to if the Country isn't recognized in the syntax, apologize to the user
     break;
     }
         System.out.println(message); //The stylistic choice is placed here
