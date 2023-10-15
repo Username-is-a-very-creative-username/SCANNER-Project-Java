@@ -30,11 +30,10 @@ class Main {
       int numberOne = rand.nextInt(1, 2000);
       int numberTwo = rand.nextInt(1, 2000);
 
-      //if "randSymbol" interger picks 0 it will Multiply both randomized
+      //if "randSymbol" interger picks 0 it will Multiply both randomized numbers
       if(randSymbol == 0) {
         answer = numberOne * numberTwo;
 
-        //if "randSymbol" interger picks 1 it will divide both randomized numbers
     } else if(randSymbol == 1 && numberOne < numberTwo) {//Makes sure that whichever randomized number is larger isn't placed first inorder to prevent negative Division. 
       
         int empty = numberOne;
@@ -44,7 +43,6 @@ class Main {
         answer = numberOne / numberTwo;
 
         //if randSymbol interger picks 1 it will divide both randomized numbers
-        //makes sure that it doesnt skip a correct question format()
     } else if(randSymbol == 1 && numberOne > numberTwo) {
 
         answer = numberOne / numberTwo;
@@ -80,11 +78,11 @@ class Main {
            System.out.println("Secret SKIP Code Successfully Found!"); 
 //Activates a "secret answer" allowing the user to easily skip a question 
       } else if(user_input == answer) { 
-        System.out.println("Correct!"); //If The users input is equvilent to the "answer" they will get the question correct.  
+        System.out.println("Correct!"); //If The users input is equivalent to the "answer" they will get the question correct.  
         rightAttempts += 1;
         
       }  else if (user_input != answer){
-        System.out.println("Incorrect!"); //If the users input does not match the "answer" they will get the qusetion wrong. 
+        System.out.println("Incorrect!"); //If the users input does not match the "answer" they will get the question wrong. 
 
         System.out.println("Correct answer: " + answer);
         failedAttempt += 1;
