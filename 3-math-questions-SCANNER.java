@@ -1,4 +1,4 @@
-//Took 2 days on this program alone to learn and put this extra piece of effort together Hope Your Impressed ;) 
+//Took 2 days on this program alone to learn and put this extra piece of effort together (Hope Your Impressed ;) ) 
 import java.util.Random; //Adds the Random class to the program
 import java.util.Scanner; //Adds Scanner to the program
 
