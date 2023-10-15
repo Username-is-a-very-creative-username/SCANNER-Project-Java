@@ -5,7 +5,7 @@ class Main {
     Scanner reader = new Scanner(System.in); //makes a scanner class
     System.out.println("Enter Your Country: "); //Lets the programmer know to enter their country
     String Country = reader.nextLine(); //Makes the programmer input to be viewed as a "Country" 
-    String message = " "; //Stylistic Choice (Optional) to make an extra space between texts to make the programmer look more pretty looking 
+    String message = " "; //Stylistic Choice (Optional) to make an extra space between texts to make the program look more pretty looking 
     
     switch (Country) {
       case "Canada":
